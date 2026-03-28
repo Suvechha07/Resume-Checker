@@ -66,8 +66,7 @@ def ai_suggestions(missing_skills, domain):
     # ✅ fallback content if AI fails
     if "⚠️" in result:
         return f"""
-        ⚠️ AI unavailable.
-
+       
         Suggested improvements for {domain}:
         - Add missing skills: {', '.join(missing_skills)}
         - Improve project descriptions
